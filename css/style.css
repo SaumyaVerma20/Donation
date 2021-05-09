@@ -194,13 +194,13 @@ color:black;
        width:20%;
        height:40px;
        position: absolute;
-       z-index: 2;
        padding: 10px 30px;
        border-radius: 10px;
        background: #f857a6;
        border: 2px solid #F4D419;
        background-color: transparent;
        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+       overflow: hidden;
 }
 
 .btn-donate:hover{
@@ -378,6 +378,49 @@ color:black;
    margin:0% 3%;
    }
    }
+
+   @media only screen and (max-width: 600px) {
+      .btn-donate{
+         font-size: 15px;
+         padding-left: 20px;
+         left:40%;
+         width:90px;
+      }
+
+      #home h1{
+         align-items: center;
+         height: 48vh;
+         font-size: 40px;
+         font-weight: 500;
+      }
+
+      .about-in{
+         width: 40%;
+         float: left;
+         padding: 5px;
+       }
+       .btn-know{
+          font-size: 10px;
+         width:90px;
+          height:20px;
+          overflow: hidden;
+      }
+
+      .container h3{
+         font-size: 20px;
+      }
+      .donate-in img{
+         height:80px;
+         width: 100px;
+         float:left;
+         padding: 5px;
+         padding-right: 15px;
+      }
+    }
+
+
+
+
 
 
    
