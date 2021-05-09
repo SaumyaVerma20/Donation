@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+
+
+
+
 html, body{
    font-size: 15px;
    line-height: 1.5;
@@ -190,8 +197,8 @@ color:black;
 
 .btn-donate{
        color:white;
-       left:50%;
-       width:20%;
+       left:35% !important;
+       width:30% !important;
        height:40px;
        position: absolute;
        padding: 10px 30px;
@@ -209,6 +216,8 @@ color:black;
    background: linear-gradient(to left,#f9d976,#F4D419);
    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
    color:black;
+   border:2px solid #ffdf00;
+   width:30%;
    }
 
 
@@ -232,8 +241,9 @@ color:black;
    .btn-know{
       background: black;
       color:#fff;
-      width:200px;
-       height:40px;
+      width:200px !important;
+       height:40px !important;
+       font-size:15px !important;
        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
        border-radius: 5px;
    }
@@ -261,11 +271,11 @@ color:black;
       padding-bottom: 70px;
    }
    .donate-in img{
-      height:35%;
-      width: 28%;
+      height:35% !important;
+      width: 28% !important;
       float: left;
       padding: 20px;
-      padding-right: 90px;
+      padding-right: 90px !important;
    }
 
    .donate-out p{
@@ -288,6 +298,10 @@ color:black;
        height:40px;
        box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
        border-radius: 5px;
+   }
+   .btn-donate-again:hover{
+      background:white;
+      color:black;
    }
 
 .main2{
@@ -379,6 +393,7 @@ color:black;
    }
    }
 
+   
    @media only screen and (min-width: 300px) {
       .btn-donate{
          font-size: 15px;
@@ -386,14 +401,14 @@ color:black;
          left:40%;
          width:90px;
       }
-
+   
       #home h1{
          align-items: center;
          height: 48vh;
          font-size: 40px;
          font-weight: 500;
       }
-
+   
       .about-in{
          width: 40%;
          float: left;
@@ -405,7 +420,7 @@ color:black;
           height:20px;
           overflow: hidden;
       }
-
+   
       .container h3{
          font-size: 20px;
       }
@@ -417,10 +432,6 @@ color:black;
          padding-right: 15px;
       }
     }
-
-
-
-
-
+   
 
    
